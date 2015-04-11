@@ -1,0 +1,2 @@
+MAILTO=""
+15 8,20 * * * /usr/bin/rdate -s time.ien.it && /sbin/hwclock --systohc > /dev/null 2>&1
